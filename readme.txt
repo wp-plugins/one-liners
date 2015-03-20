@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== One-liners ===
 Contributors: thebrent
 Tags: one liners, quotes, widgets, shortcodes
 Requires at least: 3.0.1
