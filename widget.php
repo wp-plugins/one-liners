@@ -36,7 +36,7 @@ class theBrentOnelinersWidget extends WP_Widget{
 			<input id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo esc_attr( $instance['title'] ); ?>">
 		</p>
 		<p>
-			<label for="<?php echo $this->get_field_id( 'display_as_link' ); ?>"><?php _e( 'Display as link', 'thebrent_oneliners' );?></label>
+			<label for="<?php echo $this->get_field_id( 'display_as_link' ); ?>"><?php _e( 'Display as permalink', 'thebrent_oneliners' );?></label>
 			<input class="checkbox" type="checkbox" <?php checked( $instance['display_as_link'] ); ?> id="<?php echo $this->get_field_id( 'display_as_link' ); ?>" name="<?php echo $this->get_field_name( 'display_as_link' ); ?>" />
 		</p> 
 		<?php 
