@@ -1,10 +1,13 @@
 <?php
 /*
 Plugin Name: One Liners
-Plugin URI: http://thebrent.net/
+Plugin URI: http://thebrent.net/projects/one-liners/
 Description: Custom post type for short oneliners, including a widget and shortcode.
-Author: Brent Maxwell
 Version: 3.1.0
+Author: Brent Maxwell
+Author URI: http://thebrent.net/
+Text Domain: thebrent_oneliners
+License: GPL2
 */
 
 class theBrent_Oneliners{
